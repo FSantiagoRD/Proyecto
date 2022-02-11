@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Proyecto Final</title>
+  </head>
+  <body id="bodyContacto">
+    <header id="idHeader">
+      <h1>CONOCE EGIPTO</h1>
+      <!--Navegadores-->
+      <nav id="idNavegador">
+        <a href="../index.html"
+          ><img class="imglogo" src="../img/piramide.webp" alt="logoPiramide"
+        /></a>
+        <ul>
+          <li class="inicio"><a href="../index.html">Inicio</a></li>
+          <li class="lugares"><a href="lugares.html">Lugares</a></li>
+          <li class="promociones">
+            <a href="promociones.html">Promociones</a>
+          </li>
+          <li class="contacto"><a href="contacto.html">Contacto</a></li>
+          <li class="registro"><a href="registro.html">Regístrate</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!--Formulario para Contacto-->
+    <form id="idFormularioContacto">
+      <div class="formularioCompleto">
+        <div class="IngresosForm">
+          <label for="idNombre">Su Nombre:</label>
+          <input
+            class="ingresosContacto"
+            type="text"
+            id="idNombreContacto"
+            name="Nombre"
+            placeholder="Ingrese su nombre"
+          />
+          <br /><br />
+          <label for="idCorreoContacto">Su Correo:</label>
+          <input
+            class="ingresosContacto"
+            type="email"
+            id="idCorreoContacto"
+            name="Correo"
+            placeholder="Ingrese su correo"
+          />
+          <br /><br />
+          <label for="idSelect">Ciudad:</label>
+          <select name="Select" id="idSelect">
+            <option value="Opcion0">Seleccione destino de consulta</option>
+            <option value="Opcion1">El Cairo</option>
+            <option value="Opcion2">Alejandría</option>
+            <option value="Opcion3">Lúxor</option>
+            <option value="Opcion4">Guiza</option>
+            <option value="Opcion5">Otra Consulta</option>
+          </select>
+        </div>
+        <br />
+        <!--Cuadro de Texto-->
+        <div class="cuadroTexto">
+          <label for="idConsulta">Ingrese su consulta</label><br />
+          <textarea
+            name="CuadrodeTexto"
+            id="idConsulta"
+            cols="30"
+            rows="10"
+          ></textarea>
+        </div>
+        <br />
+        <!--CheckBox-->
+        <label for="idCheck">Mi consulta/comentario no es ofensivo</label>
+        <input type="checkbox" name="checkbox" id="idCheck" required />
+        <br /><br />
+        <!--Botones-->
+        <div class="botonesContacto">
+          <input class="botonEnviar" type="button" value="Enviar" />
+          <input class="botonReset" type="button" value="Reset" />
+        </div>
+      </div>
+    </form>
+    <!--Footer (Abajo)-->
+    <footer id="idFooter">
+      <section>
+        <h3>Seguinos en nustras redes sociales</h3>
+        <img class="logoFb" src="../img/logofb.png" alt="facebook" />
+        <img class="logoIg" src="../img/logoig.png" alt="instagram" />
+        <img class="logoWspp" src="../img/logowspp.png" alt="whatsapp" />
+      </section>
+    </footer>
+  </body>
+</html>

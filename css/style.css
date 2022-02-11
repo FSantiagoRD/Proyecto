@@ -1,0 +1,385 @@
+/*Quitar estilos por defecto del Navegador*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/*Fuentes de Letras*/
+@font-face {
+  font-family: "letraEgipcia";
+  src: url(../fonts/hidayatullah\ DEMO.ttf);
+}
+@font-face {
+  font-family: "letraEgipcia2";
+  src: url(../fonts/Ceria\ Lebaran.otf);
+}
+
+/*                                          PÁGINA INDEX                            */
+body {
+  background-color: #ebd7c2;
+  height: 100%;
+  padding-bottom: 200px;
+  margin-bottom: 100px;
+}
+
+/*ESTILOS PARA NAVEGACIÓN*/
+#idHeader {
+  background-color: rgb(230, 160, 80);
+  width: 100%;
+  height: 170px;
+}
+#idHeader h1 {
+  font-family: "letraEgipcia2";
+  font-size: 65px;
+  text-align: center;
+  padding-top: 15px;
+  color: black;
+}
+
+/*Letra*/
+#idNavegador {
+  font-family: "letraEgipcia";
+  font-size: 22px;
+  margin: auto;
+  padding: 15px;
+  list-style: none;
+}
+/*Navegación en línea horizontal*/
+#idNavegador ul li {
+  position: relative;
+  bottom: 15px;
+  margin: 5px;
+  padding: 5px;
+  float: left;
+}
+/*Color de letra de la Navegación*/
+#idNavegador ul li a {
+  color: black;
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+}
+/*Color cuando pasas por arriba del Link*/
+#idNavegador ul li a:hover {
+  color: white;
+}
+/*Logo Pirámide*/
+.imglogo {
+  max-width: 2.5cm;
+  max-height: 2.5cm;
+  float: left;
+  height: 50px;
+  width: 75px;
+}
+
+/*ESTILOS IMÁGENES ILUSTRATIVAS*/
+#idSectionImg div img {
+  width: 450px;
+  height: 300px;
+  padding-left: 10px;
+}
+
+/*ESTILOS PARA TABLA*/
+
+#idTabla {
+  border-collapse: collapse;
+  border: solid 2px black;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.encabezadoTabla {
+  background-color: rgb(230, 160, 80);
+  color: white;
+  border-collapse: collapse;
+  text-align: center;
+  font-family: "letraEgipcia";
+}
+td {
+  border: black solid 1px;
+  width: 200px;
+  padding: 20px;
+}
+
+ul {
+  list-style: none;
+  text-align: center;
+}
+
+/*                                      PÁGINA REGISTRO                          */
+#bodyRegistro {
+  background-image: url(../img/fondoRegistro.jpg);
+}
+
+.formularioRegistro {
+  width: 400px;
+  background-color: rgb(230, 160, 80);
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 60px;
+  border-radius: 4px;
+  font-family: "calibri";
+  color: black;
+  box-shadow: 7px 13px 37px rgb(156, 109, 109);
+}
+/*Titulo del Formulario*/
+.formularioRegistro h4 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+/*Campos del Formulario*/
+.ingresos {
+  width: 100%;
+  background-color: rgb(230, 195, 195);
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  border: 1px solid rgb(192, 93, 93);
+  font-family: "calibri";
+  font-size: 18px;
+}
+/*Estilo del parrafo*/
+.formularioRegistro p {
+  height: 40px;
+  text-align: center;
+  font-size: 17px;
+  line-height: 40px;
+}
+/*Links*/
+.formularioRegistro a {
+  color: white;
+  text-decoration: none;
+}
+/*Al pasar por arriba del link*/
+.formularioRegistro a:hover {
+  color: white;
+  text-decoration: underline;
+}
+/*Botón de Registro*/
+.formularioRegistro .botonRegistro {
+  width: 100%;
+  border: none;
+  padding: 12px;
+  color: black;
+  margin: 16px 0;
+  font-size: 16px;
+}
+
+/*                                      PÁGINA CONTACTO                         */
+#bodyContacto {
+  background-image: url(../img/fondoContacto.jpg);
+}
+.formularioCompleto {
+  height: 600px;
+  width: 600px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding: 30px;
+  margin: left;
+  font-family: "calibri";
+  color: black;
+  font-size: 18px;
+}
+.termYcond {
+  /*Link terminos y condiciones*/
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+/*Al pasar por arriba del link*/
+.termYcond:hover {
+  color: rgb(102, 67, 67);
+  text-decoration: underline;
+}
+/*Botones*/
+.botonEnviar {
+  width: 150px;
+  border: 1px solid rosybrown;
+  padding: 8px;
+  color: black;
+  margin: 10px 0;
+  font-size: 15px;
+}
+.botonReset {
+  width: 100px;
+  border: 1px solid rosybrown;
+  padding: 8px;
+  color: black;
+  margin: 10px 0;
+  font-size: 15px;
+}
+/*Cuadro de texto*/
+#idConsulta {
+  height: 200px;
+  width: 350px;
+}
+
+#idNombreContacto {
+  margin-left: 20px;
+  width: 240px;
+}
+#idCorreoContacto {
+  margin-left: 30px;
+  width: 240px;
+}
+#idSelect {
+  margin-left: 50px;
+  width: 240px;
+}
+
+/*                                        PÁGINA DE LUGARES                       */
+
+.artImagenes img {
+  width: 600px;
+  height: 400px;
+}
+.artImagenes h2 {
+  font-family: "letraEgipcia";
+  font-size: 40px;
+  text-align: center;
+}
+
+/*                                          ESTILOS FOOTER*/
+#idFooter {
+  background-color: rgb(230, 160, 80);
+  width: 100%;
+  height: 100px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+  font-family: "letraEgipcia";
+  font-size: 20px;
+  display: flex;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-self: flex-end;
+  align-items: stretch;
+
+  position: fixed;
+  bottom: 0px;
+
+}
+
+footer section img {
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  
+}
+
+/*                                        PÁGINA DE PROMOCIONES*/
+#bodyPromociones {
+  background-image: url(../img/fondoPromociones.jpg);
+}
+/*Tabla El Cairo*/
+#idTablaCairo {
+  margin-top: 10px;
+  padding: 15px;
+  border: 1px solid black;
+  width: 800px;
+  margin: 0 auto;
+}
+#idTablaCairo caption {
+  font-size: 25px;
+  font-family: "letraEgipcia";
+}
+#idTablaCairo tr th {
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+.img__tablaCairo {
+  margin: auto;
+  width: 600px;
+}
+.img__cairo {
+  width: 600px;
+  height: 450px;
+}
+/*Tabla Alejandria*/
+#idTablaAlejandria {
+  margin-top: 10px;
+  padding: 15px;
+  border: 1px solid black;
+  width: 800px;
+  margin: 0 auto;
+}
+#idTablaAlejandria caption {
+  font-size: 25px;
+  font-family: "letraEgipcia";
+}
+#idTablaAlejandria tr th {
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+.img__tablaAlejandria {
+  margin: auto;
+  width: 600px;
+}
+.img__alejandria {
+  width: 600px;
+  height: 450px;
+}
+/*Tabla Luxor*/
+#idTablaLuxor {
+  margin-top: 10px;
+  padding: 15px;
+  border: 1px solid black;
+  width: 800px;
+  margin: 0 auto;
+}
+#idTablaLuxor caption {
+  font-size: 25px;
+  font-family: "letraEgipcia";
+}
+#idTablaLuxor tr th {
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+.img__tablaLuxor {
+  margin: auto;
+  width: 600px;
+}
+.img__luxor {
+  width: 600px;
+  height: 450px;
+}
+/*Tabla Guiza*/
+#idTablaGuiza {
+  margin-top: 10px;
+  padding: 15px;
+  border: 1px solid black;
+  width: 800px;
+  margin: 0 auto;
+}
+#idTablaGuiza caption {
+  font-size: 25px;
+  font-family: "letraEgipcia";
+}
+#idTablaGuiza tr th {
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+.img__tablaGuiza {
+  margin: auto;
+  width: 600px;
+}
+.img__guiza {
+  width: 600px;
+  height: 450px;
+}
+
+body section table {
+  background-color: rgb(230, 160, 80);
+}
+body section img {
+  border: 2px solid rgb(0, 0, 0);
+}
+caption {
+  border: 2px solid rgb(0, 0, 0);
+  background-color: rgb(230, 160, 80);
+}
